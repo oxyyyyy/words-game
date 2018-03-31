@@ -1,0 +1,17 @@
+{
+  "name": "words-game",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Alexandr Vlasenko <olexandr.vlasenko@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/oxyyyyy/words-game",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
