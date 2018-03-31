@@ -16,14 +16,24 @@
 	<title>Words-game</title>
 </head>
 
-<body>
+<body class="index">
 
 	<div class="uk-container">
-		<ul class="uk-list uk-list-divider">
-			<li>List item 1</li>
-			<li>List item 2</li>
-			<li>List item 3</li>
-		</ul>
+		<div class="flex-container uk-flex uk-flex-center uk-flex-middle">
+			<div class="button-container">
+				<h2 class="h2-title">Hi, ${name}!</h2>
+				<button class="uk-button uk-button-default uk-width-1-1">join random lobby</button>
+				<button class="uk-button uk-button-default uk-width-1-1">create own lobby</button>
+				<div class="lobby-id-container">
+					<label class="uk-form-label" for="lobby-id">I've got a lobby ID:</label>
+					<div class="uk-inline uk-width-1-1">
+						<span class="uk-form-icon" uk-icon="icon: hashtag"></span>
+						<input id="lobby-id-input" class="uk-input" type="text" placeholder="Type ID here">
+					</div>
+					<button id="lobby-id-button" class="uk-button uk-button-default uk-width-1-1" disabled>join</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- Concatinated and minified scripts-->

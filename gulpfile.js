@@ -44,7 +44,8 @@ gulp.task('scripts', function () {
 		// 'bower_components/jquery/dist/jquery.min.js',
 		// 'node_modules/popper.js/dist/popper.min.js',
 		// 'bower_components/bootstrap/dist/js/bootstrap.min.js',
-		'node_modules/uikit/dist/js/uikit.min.js'
+		'node_modules/uikit/dist/js/uikit.min.js',
+		'node_modules/uikit/dist/js/uikit-icons.min.js'
 	])
 		.pipe(concat('bundle.libs.min.js'))
 		.pipe(uglify())
